@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_profile_placeholder.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_profile_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_item_home_alert.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\item_home_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_bill_edit.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_bill_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_find_id.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_find_id.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_star_filled.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_star_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_edittext.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_badge_dday.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_badge_dday.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_schedule_edit.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_schedule_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_nav_schedule.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_nav_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_find_pw.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_find_pw.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_star_outline.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_star_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_nav_tip.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_nav_tip.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_circle_orange.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_circle_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_mypage.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_mypage.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_manage.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_item_manage_row.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\item_manage_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_checkbox_unchecked.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\checkbox_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_calendar_today.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_calendar_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_trash_edit.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_trash_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_schedule.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_nav_my.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_nav_my.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_card_white.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_card_white.xml"
+    },
+    {
+        "merged": "com.household.app-merged_res-32:/layout_activity_tip_list.xml.flat",
+        "source": "com.household.app-main-34:/layout/activity_tip_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_card_navy.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_card_navy.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_nav_manage.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_nav_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_calendar_selected.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_calendar_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_ingredient_edit.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_ingredient_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_bottom_nav.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_ic_check_white.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\ic_check_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_tip_detail.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_tip_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_selector_checkbox.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\selector_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_dot_orange.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\dot_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_bg_btn_orange.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\bg_btn_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\drawable_checkbox_checked.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\drawable\\checkbox_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_tip_list.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_tip_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_item_schedule.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\item_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-merged_res-32:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\COMPUTER\\.gradle\\daemon\\8.2\\com.household.app-main-34:\\layout\\activity_signup.xml"
+    }
+]

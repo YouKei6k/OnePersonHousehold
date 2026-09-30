@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        업로드해주신 디자인(그린 톤 카드형 UI) 참고 색상 팔레트.
+        리소스 "이름"은 기존 그대로 두고 값만 바꿨다 (bg_card_navy 등 수십 곳에서 참조 중이라
+        이름을 바꾸면 그만큼 다 고쳐야 해서, 값 교체만으로 전체 화면 톤이 한 번에 바뀌도록 함).
+    -->
+    <color name="primary_navy">#2F5D4E</color>       <!-- 상단 카드/선택 상태 진한 그린 (기존 네이비 자리) -->
+    <color name="primary_navy_dark">#24483C</color>  <!-- 그린 프레스(눌림) 색상 -->
+    <color name="accent_orange">#E8A33D</color>      <!-- 포인트 웜톤 (버튼, 뱃지) -->
+    <color name="accent_orange_dark">#CC8B2C</color> <!-- 포인트 프레스 색상 -->
+    <color name="background_light">#F5F6F4</color>   <!-- 전체 배경 (그린 톤에 어울리는 아주 옅은 그레이) -->
+    <color name="card_white">#FFFFFF</color>         <!-- 카드 배경 -->
+    <color name="text_dark">#1F2D27</color>          <!-- 제목 텍스트 -->
+    <color name="text_gray">#7E8F87</color>          <!-- 보조 텍스트 -->
+    <color name="text_white">#FFFFFF</color>
+    <color name="error_red">#E4572E</color>          <!-- 유효성 검사 실패 메시지 -->
+    <color name="divider_gray">#E4E9E6</color>
+</resources>

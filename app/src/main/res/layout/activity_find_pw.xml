@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    비밀번호 찾기 화면 (REQ-001 비고 : "비밀번호 찾기" 버튼)
+    1단계 : 아이디 + 연락처(또는 이메일)로 본인 확인
+    2단계 : 새 비밀번호 입력 (REQ-002와 동일한 8~10자, 숫자 포함 규칙)
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/title_find_pw"
+            android:textColor="@color/text_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvStepDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/step1_desc"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <!-- ===== 1단계 : 본인 확인 (아이디 + 연락처) ===== -->
+        <LinearLayout
+            android:id="@+id/layoutStep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etVerifyId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:hint="@string/hint_id"
+                android:inputType="text"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/etVerifyContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:hint="@string/hint_contact"
+                android:inputType="textEmailAddress" />
+
+            <Button
+                android:id="@+id/btnVerify"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_btn_orange"
+                android:text="@string/btn_verify"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:elevation="0dp"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+        <!-- ===== 2단계 : 새 비밀번호 설정 (본인확인 성공 후 노출) ===== -->
+        <LinearLayout
+            android:id="@+id/layoutStep2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etNewPw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:hint="@string/hint_new_pw"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/tvNewPwError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FieldErrorText"
+                android:visibility="gone"
+                android:text="@string/error_pw_rule" />
+
+            <Button
+                android:id="@+id/btnResetPw"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_btn_orange"
+                android:text="@string/btn_reset_pw"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:elevation="0dp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

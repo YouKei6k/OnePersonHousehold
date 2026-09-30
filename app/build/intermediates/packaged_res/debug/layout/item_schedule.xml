@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 생활일정관리(REQ-006) 목록 한 줄. 체크하면 완료 처리되어 목록 맨 아래로 이동 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_card_white"
+    android:padding="14dp"
+    android:layout_marginBottom="8dp">
+
+    <CheckBox
+        android:id="@+id/cbDone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:button="@drawable/selector_checkbox"
+        android:background="@null"
+        android:padding="0dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp" />
+
+    <TextView
+        android:id="@+id/tvScheduleTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/text_dark"
+        android:textSize="15sp"
+        tools:text="관리비 납부하기" />
+
+    <TextView
+        android:id="@+id/tvRecurBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_navy"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/text_white"
+        android:textSize="10sp"
+        android:visibility="gone"
+        tools:text="매주" />
+
+</LinearLayout>

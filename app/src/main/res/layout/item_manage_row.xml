@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 통합관리(REQ-007) 목록 공용 한 줄. 공과금/식재료/쓰레기 배출 3곳에서 재사용 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_card_white"
+    android:padding="14dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRowTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_dark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="관리비 납부" />
+
+        <TextView
+            android:id="@+id/tvRowSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_gray"
+            android:textSize="12sp"
+            tools:text="2026-09-30 · D-5" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cbRowDone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:button="@drawable/selector_checkbox"
+        android:background="@null"
+        android:padding="0dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp" />
+
+</LinearLayout>

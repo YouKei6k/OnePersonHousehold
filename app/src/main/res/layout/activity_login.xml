@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    로그인 화면 (REQ-001)
+    와이어프레임 순서 : 아이디 -> 비밀번호 -> 로그인 버튼
+                     -> 아이디 찾기 / 비밀번호 찾기
+                     -> 회원가입
+    테마.jpg 참고 : 상단 네이비 인사말 영역 + 오렌지 포인트 버튼
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <!-- 상단 네이비 인사말 카드 (테마 참고) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_navy"
+            android:padding="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어서오세요,"
+                android:textColor="@color/text_white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="오늘도 살림을 정리해볼까요?"
+                android:textColor="@color/accent_orange"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- 아이디 입력 -->
+        <EditText
+            android:id="@+id/etLoginId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_id"
+            android:inputType="text"
+            android:maxLength="8"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 비밀번호 입력 -->
+        <EditText
+            android:id="@+id/etLoginPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_pw"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 로그인 유지 체크박스 (REQ-001 비고: 로그인 유지 기능 필요) -->
+        <CheckBox
+            android:id="@+id/cbKeepLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_keep_login"
+            android:textColor="@color/text_gray"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 로그인 실패 메시지 (평소 숨김) -->
+        <TextView
+            android:id="@+id/tvLoginError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_red"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:text="@string/error_login_fail" />
+
+        <!-- 로그인 버튼 -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_btn_orange"
+            android:text="@string/btn_login"
+            android:textColor="@color/text_white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:elevation="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- 아이디 찾기 / 비밀번호 찾기 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvFindId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_find_id"
+                android:textColor="@color/text_gray"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" | "
+                android:textColor="@color/divider_gray" />
+
+            <TextView
+                android:id="@+id/tvFindPw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_find_pw"
+                android:textColor="@color/text_gray"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <!-- 회원가입 이동 -->
+        <TextView
+            android:id="@+id/tvGoSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:padding="8dp"
+            android:text="@string/btn_go_signup"
+            android:textColor="@color/primary_navy"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

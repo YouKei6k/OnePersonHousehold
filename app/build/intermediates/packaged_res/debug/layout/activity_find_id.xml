@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    아이디 찾기 화면 (REQ-001 비고 : "아이디 찾기" 버튼)
+    입력 : 이름, 연락처(또는 이메일) -> 확인 -> 결과 텍스트로 아이디 표시
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/title_find_id"
+            android:textColor="@color/text_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- 이름 -->
+        <EditText
+            android:id="@+id/etFindIdName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 연락처 또는 이메일 -->
+        <EditText
+            android:id="@+id/etFindIdContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_contact"
+            android:inputType="textEmailAddress" />
+
+        <!-- 확인 버튼 -->
+        <Button
+            android:id="@+id/btnFindIdConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_btn_orange"
+            android:text="@string/btn_confirm"
+            android:textColor="@color/text_white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:elevation="0dp"
+            android:layout_marginTop="20dp" />
+
+        <!-- 결과 카드 (평소 숨김, 조회 성공/실패 시 표시) -->
+        <LinearLayout
+            android:id="@+id/layoutFindIdResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_navy"
+            android:padding="20dp"
+            android:layout_marginTop="24dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvFindIdResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="회원님의 아이디는 abc1234 입니다." />
+        </LinearLayout>
+
+        <!-- 조회 성공 시에만 노출 -->
+        <TextView
+            android:id="@+id/tvGoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:text="@string/btn_find_result_go_login"
+            android:textColor="@color/primary_navy"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    홈 화면 (REQ-014)
+    요구사항리스트 : 가장 근접한 기한 알림 다섯개 띄우기 + 즐겨찾기 가능
+    '생활기록 그래프'는 요구사항리스트에서 취소선 처리되어 이번 범위에서 제외.
+    하단 네비게이션(홈/일정관리/관리/팁/MY)은 와이어프레임 전체 화면 공통 구성.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:orientation="vertical">
+
+    <!-- 본문 : 상단 인사말 + 알림 리스트 -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- 상단 네이비 인사말 카드 (테마 참고, 기존 로그인 화면과 톤 통일) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_navy"
+                android:padding="24dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/tvWelcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="OO님, 환영합니다!" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="오늘 챙겨야 할 일정을 확인해보세요."
+                    android:textColor="@color/accent_orange"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- 가장 근접한 기한 알림 다섯개 (REQ-014) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_home_alerts"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvHomeAlerts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 알림이 하나도 없을 때 표시 -->
+            <TextView
+                android:id="@+id/tvEmptyAlerts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="32dp"
+                android:text="@string/msg_no_alerts"
+                android:textColor="@color/text_gray"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include layout="@layout/bottom_nav" />
+
+
+</LinearLayout>

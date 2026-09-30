@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 회원가입 화면의 유효성 검사 실패 안내문구 스타일 -->
+    <!-- layout_width/height, visibility는 style에 넣으면 에디터가 인식을 못 하는 경우가 있어
+         여기서 제외. 이 스타일을 쓰는 쪽(activity_signup.xml)에서 각각 직접 지정한다. -->
+    <style name="FieldErrorText">
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 하단 네비게이션 항목 공통 스타일 (layout_width/height/weight, gravity, padding은
+         layout_ 접두사가 있거나 위젯마다 값이 달라질 수 있어 각 TextView에 직접 지정) -->
+    <style name="BottomNavItem">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <!-- 마이페이지(REQ-003) 프로필 원형 이미지용. ShapeableImageView에 적용하면
+         정사각형 이미지를 완전한 원으로 잘라 보여준다.
+         cornerSizePercent 속성은 존재하지 않음 -> cornerSize에 퍼센트 값을 직접 지정 -->
+    <style name="ShapeAppearanceOverlay.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

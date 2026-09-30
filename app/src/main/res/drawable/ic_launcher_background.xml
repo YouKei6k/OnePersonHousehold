@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 업로드해주신 아이콘 이미지 자체가 흰 배경이라, 여기도 흰색으로 맞춰서 이음매 없이 보이게 한다. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#FFFFFF" />
+</shape>

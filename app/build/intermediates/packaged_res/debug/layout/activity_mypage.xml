@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    마이페이지 (REQ-003)
+    요구사항리스트 : 내 정보 확인 및 수정(이름, 비밀번호, 연락처) / 프로필 수정 / 탈퇴 및 로그아웃
+    와이어프레임 참고 : 상단 원형 프로필(누르면 수정) + 항목별 수정 + 하단 로그아웃/탈퇴 + 공통 하단 네비게이션
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/title_mypage"
+                android:textColor="@color/text_dark"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- 프로필 이미지 (누르면 갤러리에서 선택) -->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_profile_placeholder"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Circle"
+                    android:contentDescription="@string/desc_profile_image" />
+
+                <TextView
+                    android:id="@+id/tvEditProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:background="@drawable/bg_btn_orange"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/btn_edit_profile"
+                    android:textColor="@color/text_white"
+                    android:textSize="11sp" />
+            </FrameLayout>
+
+            <!-- 이름 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/label_name"
+                android:textColor="@color/text_gray"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="textPersonName"
+                    tools:text="홍길동" />
+
+                <Button
+                    android:id="@+id/btnSaveName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_btn_orange"
+                    android:text="@string/btn_save"
+                    android:textColor="@color/text_white"
+                    android:elevation="0dp"
+                    android:minWidth="0dp" />
+            </LinearLayout>
+
+            <!-- 비밀번호 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/label_pw"
+                android:textColor="@color/text_gray"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etPw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/hint_new_pw_mypage"
+                    android:inputType="textPassword"
+                    android:maxLength="10" />
+
+                <Button
+                    android:id="@+id/btnSavePw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_btn_orange"
+                    android:text="@string/btn_save"
+                    android:textColor="@color/text_white"
+                    android:elevation="0dp"
+                    android:minWidth="0dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvPwError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FieldErrorText"
+                android:visibility="gone"
+                android:text="@string/error_pw_rule" />
+
+            <!-- 연락처 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/label_contact"
+                android:textColor="@color/text_gray"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etContact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="textEmailAddress"
+                    tools:text="010-1234-5678" />
+
+                <Button
+                    android:id="@+id/btnSaveContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_btn_orange"
+                    android:text="@string/btn_save"
+                    android:textColor="@color/text_white"
+                    android:elevation="0dp"
+                    android:minWidth="0dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvContactError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FieldErrorText"
+                android:visibility="gone"
+                android:text="@string/error_contact_rule" />
+
+            <!-- 로그아웃 / 탈퇴 -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_card_navy"
+                android:text="@string/btn_logout"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:elevation="0dp"
+                android:layout_marginTop="36dp" />
+
+            <TextView
+                android:id="@+id/tvWithdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:text="@string/btn_withdraw"
+                android:textColor="@color/error_red" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/bottom_nav" />
+
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    회원가입 화면 (REQ-002)
+    와이어프레임 순서 : 아이디 -> 비밀번호 -> 이름 -> 연락처(전화번호 or 이메일) -> 확인
+    비고 : 영문/숫자 조합, 형식 검증은 SignupActivity 에서 처리
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/title_signup"
+            android:textColor="@color/text_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- 아이디 -->
+        <EditText
+            android:id="@+id/etSignupId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_id_signup"
+            android:inputType="text"
+            android:maxLength="8"
+            android:layout_marginBottom="6dp" />
+        <TextView
+            android:id="@+id/tvIdError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            style="@style/FieldErrorText"
+            android:text="@string/error_id_length" />
+
+        <!-- 비밀번호 -->
+        <EditText
+            android:id="@+id/etSignupPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_pw_signup"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp" />
+        <TextView
+            android:id="@+id/tvPwError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            style="@style/FieldErrorText"
+            android:text="@string/error_pw_rule" />
+
+        <!-- 이름 -->
+        <EditText
+            android:id="@+id/etSignupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp" />
+
+        <!-- 연락처 또는 이메일 -->
+        <EditText
+            android:id="@+id/etSignupContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_contact"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp" />
+        <TextView
+            android:id="@+id/tvContactError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            style="@style/FieldErrorText"
+            android:text="@string/error_contact_rule" />
+
+        <!-- 확인(가입) 버튼 -->
+        <Button
+            android:id="@+id/btnSignupConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_btn_orange"
+            android:text="@string/btn_confirm"
+            android:textColor="@color/text_white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:elevation="0dp"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
