@@ -11,9 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
  *    startActivity() / finish() 를 가로채서 슬라이드 전환 애니메이션을 자동으로 붙여준다.
  *    화면마다 startActivity 호출 뒤에 overridePendingTransition()을 일일이 추가하지 않아도
  *    전체 화면에 똑같이 적용된다.
- *
- * overridePendingTransition은 API 34부터 deprecated 되었지만(대안 : overrideActivityTransition,
- * API 34+ 전용) 이 프로젝트는 minSdk 24까지 지원해야 해서 계속 동작하는 이 방식을 그대로 쓴다.
  */
 public class BaseActivity extends AppCompatActivity {
 

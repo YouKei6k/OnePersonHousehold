@@ -23,7 +23,6 @@ import java.util.List;
  * [역할] 홈 화면 (REQ-014). 로그인/자동로그인 이후 가장 먼저 보이는 화면.
  * 상단 인사말(이름은 매번 DB에서 새로 읽어와 마이페이지 수정을 즉시 반영), 가장 근접한 기한 알림 5개
  * (HomeAlertDao, 즐겨찾기 가능), 하단 네비게이션을 담당한다.
- * ('생활기록 그래프'는 요구사항리스트에서 취소선 처리되어 제외)
  */
 public class HomeActivity extends BaseActivity {
 
