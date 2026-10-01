@@ -315,7 +315,4 @@ public class ScheduleActivity extends BaseActivity {
         // navSchedule 은 현재 화면이므로 별도 동작 없음
     }
 
-    private void showComingSoon() {
-        Toast.makeText(this, R.string.msg_coming_soon, Toast.LENGTH_SHORT).show();
-    }
 }
